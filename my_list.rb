@@ -12,7 +12,6 @@ class MyList
   include MyEnumerable
 end
 
-
 # Create a list
 my_list_obj = MyList.new(1, 2, 3, 4)
 p my_list_obj.list
